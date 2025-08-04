@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="presentation-container">
-        <!-- Navigation Controls -->
         <div class="nav-controls">
             <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous slide">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -22,9 +21,7 @@
             </button>
         </div>
 
-        <!-- Slide Container -->
         <div class="slides-container">
-            <!-- Slide 1: Title Slide -->
             <div class="slide active" data-slide="1">
                 <div class="slide-content title-slide">
                     <div class="title-content">
@@ -45,7 +42,6 @@
                 </div>
             </div>
 
-            <!-- Slide 2: Population Growth Trends -->
             <div class="slide" data-slide="2">
                 <div class="slide-content">
                     <h1 class="slide-title">Population Growth Trends</h1>
@@ -100,7 +96,6 @@
                 </div>
             </div>
 
-            <!-- Slide 3: Urbanization Process -->
             <div class="slide" data-slide="3">
                 <div class="slide-content">
                     <h1 class="slide-title">Urbanization Process</h1>
@@ -155,7 +150,6 @@
                 </div>
             </div>
 
-            <!-- Slide 4: Age Structure and Demographics -->
             <div class="slide" data-slide="4">
                 <div class="slide-content">
                     <h1 class="slide-title">Age Structure and Demographics</h1>
@@ -201,7 +195,6 @@
                 </div>
             </div>
 
-            <!-- Slide 5: Migration Statistics -->
             <div class="slide" data-slide="5">
                 <div class="slide-content">
                     <h1 class="slide-title">Migration Statistics</h1>
@@ -257,7 +250,6 @@
                 </div>
             </div>
 
-            <!-- Slide 6: Factors Driving Changes -->
             <div class="slide" data-slide="6">
                 <div class="slide-content">
                     <h1 class="slide-title">Factors Driving Demographic Changes</h1>
@@ -302,9 +294,48 @@
                     </div>
                 </div>
             </div>
+
+            <div class="slide" data-slide="7">
+                <div class="slide-content">
+                    <h1 class="slide-title">Impacts of Urbanization & Rapid Growth</h1>
+                    
+                    <div class="factors-grid">
+                        <div class="factor-category">
+                            <h3 class="category-title">Air Pollution</h3>
+                            <ul class="factor-list">
+                                <li>Average PM2.5 in 2023 was 39µg/m³, almost 4x WHO guideline.</li>
+                                <li>Represents a persistent public health issue for the city's residents.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="factor-category">
+                            <h3 class="category-title">Urban Heat Island</h3>
+                            <ul class="factor-list">
+                                <li>Urban areas are ~2.8°C hotter than surrounding suburbs.</li>
+                                <li>Intense construction adds 0.44°C per 10 million m² of new buildings.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="factor-category">
+                            <h3 class="category-title">Water Scarcity</h3>
+                            <ul class="factor-list">
+                                <li>Faces "acute scarcity" with only 150m³ of water per person annually.</li>
+                                <li>Annual consumption of 3.6 billion m³ far exceeds natural supply.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="factor-category">
+                            <h3 class="category-title">Land Use Change</h3>
+                            <ul class="factor-list">
+                                <li>Lost ~77% of its farmland since 1980 due to urban sprawl.</li>
+                                <li>Despite this, per capita public green space has increased to 16.6m².</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Slide Indicators -->
         <div class="slide-indicators">
             <div class="indicator active" data-slide="1"></div>
             <div class="indicator" data-slide="2"></div>
@@ -312,11 +343,11 @@
             <div class="indicator" data-slide="4"></div>
             <div class="indicator" data-slide="5"></div>
             <div class="indicator" data-slide="6"></div>
+            <div class="indicator" data-slide="7"></div>
         </div>
 
-        <!-- Slide Counter -->
         <div class="slide-counter">
-            <span id="currentSlide">1</span> / <span id="totalSlides">6</span>
+            <span id="currentSlide">1</span> / <span id="totalSlides">7</span>
         </div>
     </div>
 
