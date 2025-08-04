@@ -1,7 +1,7 @@
 class PresentationApp {
     constructor() {
         this.currentSlide = 1;
-        this.totalSlides = 6;
+        this.totalSlides = 7; // Updated from 6 to 7
         this.slides = document.querySelectorAll('.slide');
         this.indicators = document.querySelectorAll('.indicator');
         this.prevBtn = document.getElementById('prevBtn');
